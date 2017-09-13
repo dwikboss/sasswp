@@ -22,6 +22,10 @@ Nicolas
 Gallagher and Jonathan Neal http://necolas.github.io/normalize.css/
 */
 
+@import "variables-site/variables-site";
+
+$link-color: $color__link;
+
 @import "bootstrap";
 
 /*--------------------------------------------------------------
@@ -39,7 +43,7 @@ Gallagher and Jonathan Neal http://necolas.github.io/normalize.css/
 	## Captions
 	## Galleries
 --------------------------------------------------------------*/
-@import "variables-site/variables-site";
+
 @import "mixins/mixins-master";
 
 /*--------------------------------------------------------------
