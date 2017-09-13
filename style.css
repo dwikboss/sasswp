@@ -8332,6 +8332,32 @@ button.close {
     text-decoration: none;
     color: #F41C1C; }
 
+.site-content {
+  margin-left: -15px;
+  margin-right: -15px;
+  content: "";
+  display: table;
+  table-layout: fixed;
+  word-break: break-word; }
+  .site-content .content-area {
+    position: relative;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px; }
+    @media (min-width: 992px) {
+      .site-content .content-area {
+        float: left;
+        width: 75%; } }
+  .site-content .widget-area {
+    position: relative;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px; }
+    @media (min-width: 992px) {
+      .site-content .widget-area {
+        float: left;
+        width: 25%; } }
+
 /*--------------------------------------------------------------
 ## Comments
 --------------------------------------------------------------*/
