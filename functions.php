@@ -157,4 +157,3 @@ function sasswp_the_custom_logo() {
 	echo $output;
 }
 endif;
-
