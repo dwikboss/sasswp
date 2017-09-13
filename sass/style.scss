@@ -23,10 +23,10 @@ Gallagher and Jonathan Neal http://necolas.github.io/normalize.css/
 */
 
 @import "variables-site/variables-site";
-
-$link-color: $color__link;
-
 @import "bootstrap";
+
+$fa-font-path: "./fonts";
+@import "font-awesome";
 
 /*--------------------------------------------------------------
 >>> TABLE OF CONTENTS;

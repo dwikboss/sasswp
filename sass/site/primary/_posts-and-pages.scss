@@ -33,3 +33,28 @@
 	}
 }
 
+.entry-meta {
+	.fa {
+		color:$color__light-green;
+		margin-right: 10px;
+	}
+
+	span {
+		margin-right: 10px;
+		display: inline-block;
+
+		&:last-child {
+			margin-right:5;
+		}
+	}
+
+	a {
+		color:$color__light-green;
+
+		&:hover {
+			text-decoration: none;
+			color: #F41C1C;
+		}
+	}
+}
+
