@@ -6,22 +6,29 @@
 		max-width: 100%;
 	}
 
-	.textwidget {
+	.textwidget
+	.tagcloud {
 		@extend .panel-body;
 	}
 
 	ul {
 		padding-top: 15px;
-		padding-top: 15px;
+		padding-bottom: 15px;
 	}
 
 	table {
 		width: 100%;
 		max-width: 100%;
-	  }
+	}
 	 
-	  &.widget_search {
+	 &.widget_search {
 		border: none;
 		box-shadow: none;
-	  }
+	}
+
+	.tagcloud a {
+		@extend .btn;
+		@extend .btn-default;
+		margin: 5px;
+	}
 }
